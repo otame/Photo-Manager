@@ -1,0 +1,37 @@
+Duties List for Phase2
+
+Member One:
+Student Name: Jiyuan Cheng
+Student Number: 1003223950
+utorid: chengj63
+Duty: Implementing and improving the unit test for the some class of this project, design manager classes
+and exception of controller.
+Improving and fix the logging system for some problems, draw the phase2 completed UML
+and fixing some mistakes and bugs for some classes.
+
+Member Two:
+Student Name: Xiawei Zhang
+Student Number: 1002137957
+utorid: zhan2309
+Duty: Decide using the design pattern "MVC" and "Observer" in this project and Implement DataBase as model of MVC in
+this program. Create and implemented "DataBaseConnection", " DataBaseDownload" , "DataBaseUpdater" and also create the
+related class "FileManager" and "ControlFile" in the Controller Package.Creating "Photo" Class to extend the ControlFile
+Class to make the software more extendable since more functions could be created in the PhotoManager. Desgining the
+ExceptionPrompter Class to help the program to prompt the Exception. Besides, Help group to fix code smell and optimized
+program structure in the
+later stage.
+
+Member Three:
+Student Name: Jin Cheng He
+utorid: hejinche
+Duty: Link the GUI to the controller such as the PhotoManager and Video Manager in the program. Design and Implement
+Load Page Tab of the GUI. Helped team to debug and fix errors in the program. Write methods within the PhotoManager
+and TagObserver. Also, change various methods to reduce the run time and code smell of the program and add more methods
+in the MainPage.
+
+Member Four:
+Student Name: Yu Feng Gan
+utorid: ganyu1
+Duty: Optimized and fixed possible bugs in view Tab GUI, designed the FilterBox fxml interface and linked it to
+MainPage GUI. Redesigned ViewTab GUI to add new features such as open file directory and add filter to photo. Lastly,
+removed some unused buttons and methods in GUI.

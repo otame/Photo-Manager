@@ -1,0 +1,9 @@
+To Run the Program By Javac, you first have to input the following codes into your terminal line by line.
+
+cd group_0464/phase2/src
+
+javac */*.java
+
+java gui.Control
+
+Also, please read ReadMe.txt for clarifications and instructions before running the program.

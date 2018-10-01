@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FilterBox">
+   <children>
+      <ImageView fx:id="frame" fitHeight="574.0" fitWidth="513.0" layoutX="40.0" layoutY="34.0">
+         <image>
+            <Image url="@../frame.jpg" />
+         </image></ImageView>
+      <Button blendMode="DIFFERENCE" focusTraversable="false" layoutX="597.0" layoutY="45.0" mnemonicParsing="false" onAction="#redAction" prefHeight="53.0" prefWidth="131.0" text="Red" textFill="#00ffc3">
+         <font>
+            <Font name="Britannic Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button blendMode="DIFFERENCE" layoutX="599.0" layoutY="139.0" mnemonicParsing="false" onAction="#blueAction" prefHeight="52.0" prefWidth="131.0" text="Blue" textFill="RED">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="Britannic Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button blendMode="DIFFERENCE" contentDisplay="CENTER" layoutX="599.0" layoutY="232.0" mnemonicParsing="false" onAction="#greenAction" prefHeight="52.0" prefWidth="131.0" text="Green" textFill="#921aff">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="imageView" fitHeight="510.0" fitWidth="453.0" layoutX="69.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="saveBtn" layoutX="607.0" layoutY="413.0" mnemonicParsing="false" onAction="#saveBtnAction" prefHeight="57.0" prefWidth="131.0" text="Save" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="607.0" layoutY="490.0" mnemonicParsing="false" onAction="#cancelBtnAction" prefHeight="57.0" prefWidth="131.0" text="Cancel" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
